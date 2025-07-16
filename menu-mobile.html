@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Меню — AtitA</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background-color: #fff;
+    }
+
+    header {
+      background-color: #fff0f5;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: #333;
+      font-size: 18px;
+      padding: 10px;
+      background-color: #ffeef0;
+      border-radius: 5px;
+    }
+
+    .navbar a.active {
+      background-color: #ffd1dc;
+    }
+
+    main {
+      padding: 15px;
+    }
+
+    h1.menu-title {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .menu-subtitle {
+      font-size: 20px;
+      margin: 20px 0 10px;
+      text-align: center;
+      color: #444;
+    }
+
+    .menu-list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .menu-card {
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    .menu-card img {
+      width: 100%;
+      max-width: 250px;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .menu-card h3 {
+      font-size: 18px;
+      margin: 10px 0 5px;
+    }
+
+    .menu-card p {
+      font-size: 16px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <a href="mobile.html">Главная</a>
+      <a href="menu-mobile.html" class="active">Меню</a>
+      <a href="login.html">Вход</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="menu-title">🍨 Меню кафе AtitA</h1>
+
+    <!-- Разливное мороженое -->
+    <section>
+      <h2 class="menu-subtitle">Разливное мороженое 🍦</h2>
+      <div class="menu-list">
+        <div class="menu-card">
+          <img src="images/cup chocolate.jpg" alt="Шоколадное мороженое">
+          <h3>Шоколадное мороженое</h3>
+          <p>Маленькое — 12000 сум<br>Большое — 15000 сум</p>
+        </div>
+        <div class="menu-card">
+          <img src="images/cup kiwi.jpg" alt="Киви">
+          <h3>Мороженое со вкусом Киви</h3>
+          <p>Маленькое — 12000 сум<br>Большое — 15000 сум</p>
+        </div>
+        <div class="menu-card">
+          <img src="images/cup plombir.jpg" alt="Пломбир">
+          <h3>Мороженое пломбир</h3>
+          <p>Маленькое — 12000 сум<br>Большое — 15000 сум</p>
+        </div>
+        <div class="menu-card">
+          <img src="images/cup strawberry.jpg" alt="Клубничное">
+          <h3>Мороженое со вкусом клубники</h3>
+          <p>Маленькое — 12000 сум<br>Большое — 15000 сум</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Шариковое мороженое -->
+    <section>
+      <h2 class="menu-subtitle">Шариковое мороженое 🍨</h2>
+      <div class="menu-list">
+        <div class="menu-card">
+          <img src="images/icecream bublegum.jpg" alt="Бабл гам">
+          <h3>Мороженое со вкусом бабл гам</h3>
+          <p>1 шарик — 7000 сум<br>+ рожок — 8000 сум<br>3 шарика — 21000 сум</p>
+        </div>
+        <div class="menu-card">
+          <img src="images/icecream rafaelo.jpg" alt="Рафаэлло">
+          <h3>Рафаэлло</h3>
+          <p>1 шарик — 7000 сум<br>+ рожок — 8000 сум<br>3 шарика — 21000 сум</p>
+        </div>
+        <div class="menu-card">
+          <img src="images/icecream oreo.jpg" alt="Орео">
+          <h3>Орео</h3>
+          <p>1 шарик — 7000 сум<br>+ рожок — 8000 сум<br>3 шарика — 21000 сум</p>
+        </div>
+        <div class="menu-card">
+          <img src="images/icecream chocolade.jpg" alt="Шоколад">
+          <h3>Мороженое со вкусом Шоколада</h3>
+          <p>1 шарик — 7000 сум<br>+ рожок — 8000 сум<br>3 шарика — 21000 сум</p>
+        </div>
+        <div class="menu-card">
+          <img src="images/icecream creme brule.jpg" alt="Крем брюле">
+          <h3>Крем брюле</h3>
+          <p>1 шарик — 7000 сум<br>+ рожок — 8000 сум<br>3 шарика — 21000 сум</p>
+        </div>
+        <div class="menu-card">
+          <img src="images/icecream vishna.jpg" alt="Вишня">
+          <h3>Мороженое со вкусом вишни</h3>
+          <p>1 шарик — 7000 сум<br>+ рожок — 8000 сум<br>3 шарика — 21000 сум</p>
+        </div>
+        <div class="menu-card">
+          <img src="images/icecream plombir.jpg" alt="Пломбир">
+          <h3>Мороженое пломбир</h3>
+          <p>1 шарик — 7000 сум<br>+ рожок — 8000 сум<br>3 шарика — 21000 сум</p>
+        </div>
+        <div class="menu-card">
+          <img src="images/icecream banan.jpg" alt="Банан">
+          <h3>Мороженое со вкусом Банана</h3>
+          <p>1 шарик — 7000 сум<br>+ рожок — 8000 сум<br>3 шарика — 21000 сум</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Коктейли -->
+    <section>
+      <h2 class="menu-subtitle">Коктейли 🧋</h2>
+      <div class="menu-list">
+        <div class="menu-card">
+          <img src="images/kocktail strawberry.jpg" alt="Клубничный коктейль">
+          <h3>Коктейль Клубничный</h3>
+          <p>350 мл — 12000 сум<br>500 мл — 15000 сум</p>
+        </div>
+        <div class="menu-card">
+          <img src="images/kocktail milk.jpg" alt="Молочный коктейль">
+          <h3>Коктейль молочный</h3>
+          <p>350 мл — 12000 сум<br>500 мл — 15000 сум</p>
+        </div>
+        <div class="menu-card">
+          <img src="images/milkshake.jpg" alt="Милкшейк">
+          <h3>Милкшейк Шоколадный</h3>
+          <p>350 мл — 12000 сум<br>500 мл — 15000 сум</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
